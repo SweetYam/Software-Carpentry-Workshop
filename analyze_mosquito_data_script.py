@@ -13,7 +13,7 @@ data["temperature"] = mosquito_lib.fahr_to_celsius(data["temperature"])
 
 print data.head()
 
-parameters = mosquito_lib.analyze(data)
+parameters = mosquito_lib.analyze(data, "plot.jpg")
 
 #instead of printing parameters via "print parameters", instead we save in a new file
 #Save parameters to file
