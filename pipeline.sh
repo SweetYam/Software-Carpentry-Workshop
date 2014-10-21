@@ -19,7 +19,7 @@ do
 	mv $f ${f/txt/csv}
 done
 
-echo Available files. File listing
+echo Available csv files. File listing
 ls *.csv
 
 
